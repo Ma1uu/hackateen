@@ -2,10 +2,10 @@ import { TIPOS_BOTAO } from './constantes'
 import style from './botao.module.css'
 
 const Botao = (props) => {
-    const { texto, tipo=TIPOS_BOTAO.PRIMARIO, ...outrasprops} = props
+    const { texto, tipo=TIPOS_BOTAO.SECUNDARIO, ...outrasprops} = props
     return (
         <button className={style.Botao} 
-        type={tipo} 
+        tipo={tipo} 
         {...outrasprops}>
         {texto}
         </button>

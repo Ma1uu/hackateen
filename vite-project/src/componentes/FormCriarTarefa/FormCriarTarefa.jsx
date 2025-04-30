@@ -5,7 +5,7 @@ const FormCriarTarefa = () => {
   return (
     <form className={style.FormCriarTarefa}>
       <CampoTexto/>
-      <Botao texto="+" tipo={TIPOS_BOTAO.PRIMARIO}/>
+      <Botao texto="+" tipo={TIPOS_BOTAO.SECUNDARIO}/>
     </form>
   );
 }
