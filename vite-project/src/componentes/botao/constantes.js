@@ -1,4 +1,4 @@
 export const TIPOS_BOTAO = Object.freeze({
-    primario: 'primario',
-    secundario: 'secundario',
+    PRIMARIO: 'primario',
+    SECUNDARIO: 'secundario',
 })
